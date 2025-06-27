@@ -1,0 +1,13 @@
+Job Title: Data Scientist
+Company: Google
+
+Responsibilities:
+- Build predictive models to support business decisions
+- Collaborate with cross-functional teams
+- Design and deploy data pipelines and ML models
+
+Skills Required:
+- Strong Python & SQL
+- Experience with scikit-learn, pandas, matplotlib
+- Cloud experience (GCP, AWS, Azure)
+- Good understanding of NLP and model deployment

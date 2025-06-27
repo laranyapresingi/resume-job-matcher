@@ -1,0 +1,31 @@
+The Opportunity
+We are looking for a Lead Data Scientist / Machine Learning Engineer to build and deploy impactful models and lead the development of the infrastructure that will enable scalable, efficient, and reproducible data science work across our organization.
+
+In this role, you will design and deploy advanced statistical and machine learning models that help us understand and optimize our business, with particular emphasis on causal inference, media optimization, and incrementality measurement. Your work will help the company shift from a correlation-based approach to one that emphasizes causal impact and true business value.
+
+Beyond modeling, you will play a critical leadership role in shaping the tools, systems, and workflows that enable data scientists to do their best work. We’re especially excited about candidates who are motivated by innovation and new technologies - someone who proactively explores ways to use large language models (LLMs), automation, and AI agents to make DS and analytics workflows more efficient, discoverable, and impactful.
+
+What You’ll Do
+Develop and deploy statistical and machine learning models to drive business decisions.
+Modernize data science workflows: Help move teams from manual development (e.g., working with spreadsheets or local code) to streamlined, automated, and collaborative workflows that support experimentation, versioning, and deployment.
+Partner with DS teams to operationalize models: Help data scientists translate research code into robust, production-grade systems, defining processes for feature generation, deployment, and monitoring.
+Partner with engineering: Design systems for scalable deployment, monitoring, and retraining of DS models.
+Modernize DS workflows: Architect tools and frameworks that support collaborative, reproducible, and discoverable data science work across multiple teams.
+Make insights and outputs accessible and reusable. Solve the problem of lost or siloed knowledge by designing ways to capture and organize models, analyses, and findings so that others can find and build on past work.
+Act as a connector across teams: Bridge gaps between data science, analytics, and engineering, ensuring that infrastructure investments serve near-term modeling needs and long-term scalability.
+
+
+Required Qualifications
+MS/PhD or equivalent experience in Computer Science, Statistics, Data Science, Economics, Mathematics, or a related quantitative field.
+Familiarity with experiment design, quasi-experimental methods, or causal modeling techniques.
+Familiarity with traditional ML methods.
+Experience partnering with engineering teams to build production systems.
+Track record of deploying ML models into production, including monitoring, retraining workflows, and data quality pipelines.
+Experience applying LLMs, generative AI, or automation frameworks to improve data science efficiency is a plus.
+Can influence and align diverse users without formal authority.
+Can understand, reimagine, and connect the dots across messy, end-to-end DS/analytics processes.
+Comfortable leading through ambiguity, turning loosely defined goals into concrete proposals and roadmaps.
+Proficiency in Python/R, cloud platforms (e.g., Azure), and tools like MLflow for managing model lifecycles.
+Brings hands-on experience with CI/CD practices for machine learning production workflows.
+Communicates concisely and with situational awareness.
+A curious, motivated approach with a passion for innovation and using emerging technologies.
