@@ -1,0 +1,9 @@
+resume_file,jd_file,label
+sde_resume_1.pdf,jd_sde_amazon.txt,1
+sde_resume_2.pdf,jd_sde_amazon.txt,1
+sde_resume_2.pdf,jd_data_scientist_adobe.txt,0
+data_scientist_resume_1.pdf,jd_data_scientist_adobe.txt,1
+data_scientist_resume_2.pdf,jd_data_scientist_adobe.txt,1
+sde_resume_1.pdf,jd_data_scientist_adobe.txt,0
+data_scientist_resume_1.pdf,jd_sde_amazon.txt,0
+data_scientist_resume_2.pdf,jd_sde_amazon.txt,0

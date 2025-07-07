@@ -1,0 +1,11 @@
+Develop high-performance solutions for real-time trade surveillance and automated regulatory reporting (SEC, FSA, FINRA, and more).
+Modernize our technology by transforming quick-fix solutions into elegant, sustainable technology.
+Partner with cross-functional teams to improve our data normalization and integration with low-latency, real-time data feeds.
+Share expertise in design and code reviews and stay ahead of industry trends to drive continuous improvement.
+What We’re Looking For:
+
+2+ years professional experience with Java; Python a plus.
+Interest or experience in post-trade technology.
+Skilled in multi-threaded programming and distributed systems.
+Strong team collaboration and communication skills.
+Pragmatic approach to balancing tactical needs with long-term vision.
