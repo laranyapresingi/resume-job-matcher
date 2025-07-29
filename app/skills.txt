@@ -1,0 +1,200 @@
+python
+java
+c++
+c#
+r
+sql
+nosql
+postgresql
+mysql
+sqlite
+mongodb
+oracle
+mssql
+html
+css
+javascript
+typescript
+react
+angular
+vue
+node.js
+django
+flask
+spring
+express
+jquery
+bootstrap
+tailwind
+rest api
+graphql
+json
+xml
+git
+github
+gitlab
+bitbucket
+docker
+kubernetes
+aws
+azure
+gcp
+lambda
+ec2
+s3
+cloudformation
+terraform
+ansible
+jenkins
+travis ci
+circleci
+ci/cd
+bash
+shell scripting
+linux
+unix
+windows server
+powershell
+tensorflow
+keras
+pytorch
+scikit-learn
+xgboost
+lightgbm
+pandas
+numpy
+matplotlib
+seaborn
+openai
+transformers
+huggingface
+nltk
+spacy
+llm
+bert
+gpt
+langchain
+mlflow
+mlops
+airflow
+kubeflow
+dvc
+streamlit
+dash
+gradio
+tableau
+power bi
+looker
+superset
+metabase
+excel
+pivot tables
+vlookup
+data wrangling
+data visualization
+data cleaning
+data pipelines
+etl
+elt
+bigquery
+redshift
+snowflake
+databricks
+spark
+hadoop
+hive
+mapreduce
+impala
+kafka
+kinesis
+flink
+sagemaker
+vertex ai
+azure ml
+feature store
+model monitoring
+model deployment
+model tuning
+hyperparameter optimization
+cross validation
+regression
+classification
+clustering
+time series
+forecasting
+recommendation systems
+anomaly detection
+nlp
+cv
+ocr
+object detection
+image classification
+segmentation
+tokenization
+lemmatization
+word embeddings
+word2vec
+doc2vec
+glove
+attention mechanism
+transformer models
+reinforcement learning
+bayesian models
+markov chains
+monte carlo methods
+statistical analysis
+ab testing
+causal inference
+experimentation
+design of experiments
+confidence intervals
+hypothesis testing
+p-value
+t-test
+z-test
+chi-square test
+anova
+linear regression
+logistic regression
+decision trees
+random forest
+svm
+knn
+naive bayes
+gradient boosting
+ensemble methods
+collaborative filtering
+content-based filtering
+sqlite
+neo4j
+graph databases
+elasticsearch
+splunk
+logstash
+data engineering
+data science
+machine learning
+deep learning
+software engineering
+devops
+site reliability
+system design
+api development
+backend development
+frontend development
+full stack development
+unit testing
+integration testing
+pytest
+unittest
+junit
+mocking
+test automation
+load testing
+performance testing
+agile
+scrum
+jira
+confluence
+asana
+notion

@@ -1,5 +1,5 @@
 print("hello")
-from utils.helper import preprocess_text
+# from utils.helper import preprocess_text
 
 # sample = '''Junior Data Scientist
 #  TATA CONSULTANCY SERVICES
@@ -36,18 +36,60 @@ from utils.helper import preprocess_text
 # # print("RESUME SAMPLE:\n", resume_text[:1000])
 # print("\nJD SAMPLE:\n", jd_text)
 
-from app.parser import extract_text_from_pdf, extract_text_from_txt
+# from app.parser import extract_text_from_pdf, extract_text_from_txt
+# from utils.helper import preprocess_text
+# from app.matcher import compute_similarity
+
+# # Paths to your sample data
+# resume_raw = extract_text_from_pdf("sample_data/resume_2.pdf")
+# jd_raw = extract_text_from_txt("sample_data/jd_data_scientist.txt")
+
+# # Preprocess
+# resume_clean = preprocess_text(resume_raw)
+# jd_clean = preprocess_text(jd_raw)
+
+# # Match
+# score = compute_similarity(resume_clean, jd_clean)
+# print("✅ Match Score:", score)
 from utils.helper import preprocess_text
-from app.matcher import compute_similarity
+text='''Key Responsibilities:
 
-# Paths to your sample data
-resume_raw = extract_text_from_pdf("sample_data/resume_2.pdf")
-jd_raw = extract_text_from_txt("sample_data/jd_data_scientist.txt")
+Solution Development: Design, implement, and deploy scalable data solutions utilizing Cognite Data Fusion, focusing on data modeling, UNS, and ontologies to address industry-specific challenges. Data Analysis: Analyze large and complex data sets to identify trends, insights, and opportunities, supporting solution development and business strategies. Collaboration: Collaborate with cross-functional teams to understand data needs and translate them into data science solutions, ensuring seamless integration and operationalization of digital solutions across various domains. Client Engagement: Engage with clients to understand their business objectives, lead discovery workshops, and provide expert guidance on data-driven strategies and potential challenges. Visualization: Develop dashboards and visualizations using tools such as Power BI, Grafana, or web development frameworks like Plotly Dash and Streamlit to effectively communicate data insights. Mentorship: Provide guidance and mentorship to junior team members, promoting best practices in data science and software development.
 
-# Preprocess
-resume_clean = preprocess_text(resume_raw)
-jd_clean = preprocess_text(jd_raw)
+Qualifications: Educational Background: Master’s or PhD degree in a quantitative field. Experience: Minimum of 2 years of experience in data science, with a strong background in developing analytical solutions within domains such as pharma, oil and gas, manufacturing, or power & utilities. Technical Skills: Proficiency in Python and its data ecosystem (pandas, numpy), machine learning libraries (scikit-learn, keras), and experience with SQL. Visualization Tools: Experience with data visualization tools like Power BI, Grafana, Tableau, or web development frameworks such as Plotly Dash and Streamlit. Software Practices: Strong understanding of software development practices, including version control (e.g., Git), automated testing, and documentation. Cloud Platforms: Experience with cloud services such as GCP, Azure, or AWS is advantageous. Domain Knowledge: Familiarity with industrial data management concepts, including Unified Namespace (UNS), ontologies, and data product identification. Communication Skills: Excellent communication and collaboration skills, with the ability to work with cross-functional teams and stakeholders. Leadership: Demonstrated ability to lead projects and mentor junior team members.'''
+def clean_input_text(text):
+    import re
+    text = text.replace('\r\n', '\n').replace('\r', '\n')
+    text = re.sub(r'[ \xa0]+', ' ', text)  # Replace weird whitespaces
+    return text.strip()
+def extract_skills_section(text):
+    """Extract skills/technical section from resume/job description."""
+    lines = text.split('\n')
+    skills_text = ""
 
-# Match
-score = compute_similarity(resume_clean, jd_clean)
-print("✅ Match Score:", score)
+    SECTION_HEADERS = [
+        'skills', 'technical skills', 'technologies', 'tools',
+        'programming languages', 'core competencies',
+        'qualifications', 'preferred qualifications','key responsibilities'
+    ]
+
+    for i, line in enumerate(lines):
+        print(i)
+        line_lower = line.lower().strip().rstrip(":")
+        print(line_lower)
+        if any(line_lower.startswith(header) for header in SECTION_HEADERS):
+            # Extract next up to 10 lines (non-empty)
+            print("entered 1")
+            for j in range(i + 1, min(i + 11, len(lines))):
+                print(j)
+                if lines[j].strip():  # skip empty lines
+                    skills_text += lines[j].strip() + "/n  "
+            break
+
+    extracted = skills_text.strip()
+    print(f"Extracted skills: {extracted}")
+    return extracted
+
+a=clean_input_text(text)
+b= preprocess_text(a)
+print(extract_skills_section(b))

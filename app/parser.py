@@ -1,13 +1,20 @@
 import fitz  # PyMuPDF
-
+import re
 def extract_text_from_pdf(pdf_path):
-    """Extract text from a resume PDF."""
+    """Extract and clean text from a resume PDF."""
     text = ""
     try:
         with fitz.open(pdf_path) as doc:
             for page in doc:
-                text += page.get_text()
-        return text.strip()
+                page_text = page.get_text()
+                text += page_text + " "
+        
+        # Clean up common PDF extraction issues
+        text = text.replace('\n', ' ')  # Replace newlines with spaces
+        text = re.sub(r'\s+', ' ', text)  # Multiple spaces to single space
+        text = text.strip()
+        
+        return text
     except Exception as e:
         print(f"Error reading PDF: {e}")
         return ""
@@ -20,3 +27,5 @@ def extract_text_from_txt(txt_path):
     except Exception as e:
         print(f"Error reading JD: {e}")
         return ""
+
+
