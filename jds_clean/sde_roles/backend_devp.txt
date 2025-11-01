@@ -1,0 +1,31 @@
+We are seeking a Backend Developer to build and maintain server-side applications and APIs. You will work on scalable systems that power our web and mobile applications.
+Responsibilities:
+
+Design and develop robust backend systems and RESTful APIs
+Build scalable microservices architecture
+Integrate with databases and third-party services
+Implement security best practices and authentication systems
+Optimize database queries and application performance
+Write comprehensive unit and integration tests
+Deploy applications to cloud platforms and manage CI/CD pipelines
+Monitor system performance and troubleshoot issues
+
+Requirements:
+
+Bachelor's degree in Computer Science, Software Engineering, or related field
+3+ years of backend development experience
+Proficiency in server-side languages: Java, Python, C#, Node.js, or Go
+Experience with web frameworks (Spring Boot, Django, Express.js, .NET Core)
+Strong knowledge of relational databases (PostgreSQL, MySQL) and SQL
+Understanding of RESTful API design principles
+Experience with cloud platforms (AWS, Azure, GCP)
+Knowledge of containerization (Docker) and orchestration (Kubernetes)
+
+Preferred:
+
+Experience with NoSQL databases (MongoDB, Redis)
+Knowledge of message queues and event-driven architecture
+Familiarity with caching strategies and performance optimization
+Experience with monitoring and logging tools
+Understanding of software architecture patterns
+Knowledge of security practices and authentication protocols (OAuth, JWT)

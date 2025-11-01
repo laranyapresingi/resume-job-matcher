@@ -1,0 +1,30 @@
+We are seeking a Software Developer to join our development team and build high-quality software solutions. You will work on both frontend and backend development using modern technologies and frameworks.
+Responsibilities:
+
+Design, develop, and maintain web applications using modern frameworks
+Write clean, efficient, and well-documented code
+Collaborate with cross-functional teams to define and implement new features
+Participate in code reviews and follow software development best practices
+Debug and troubleshoot application issues
+Optimize application performance and scalability
+Stay updated with latest technology trends and best practices
+Contribute to technical architecture decisions
+
+Requirements:
+
+Bachelor's degree in Computer Science, Software Engineering, or related field
+2+ years of software development experience
+Proficiency in at least one programming language: Java, C#, Python, or JavaScript
+Experience with web development frameworks (React, Angular, Vue.js, Spring, .NET)
+Knowledge of database systems (SQL Server, MySQL, PostgreSQL)
+Understanding of software development lifecycle and version control (Git)
+Familiarity with RESTful APIs and web services
+Problem-solving skills and attention to detail
+
+Preferred:
+
+Experience with cloud platforms (AWS, Azure, GCP)
+Knowledge of containerization technologies (Docker)
+Familiarity with CI/CD pipelines
+Experience with testing frameworks and practices
+Understanding of security best practices

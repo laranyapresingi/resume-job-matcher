@@ -118,7 +118,7 @@ def extract_skills_section(text):
     ]
 
     for i, line in enumerate(lines):
-        print(f" i : {i},{line}")
+        # print(f" i : {i},{line}")
         line_lower = line.lower().strip().rstrip(":")
         
         if any(line_lower.startswith(preprocess_text(header)) for header in SECTION_HEADERS):

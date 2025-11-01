@@ -1,0 +1,31 @@
+We are looking for a Frontend Developer to create engaging and responsive user interfaces. You will work closely with designers and backend developers to deliver exceptional user experiences.
+Responsibilities:
+
+Develop responsive and interactive web applications using HTML, CSS, and JavaScript
+Build user interfaces using modern frameworks like React, Angular, or Vue.js
+Collaborate with UI/UX designers to implement pixel-perfect designs
+Optimize applications for maximum speed and scalability
+Ensure cross-browser compatibility and mobile responsiveness
+Integrate frontend applications with backend APIs
+Write unit tests and participate in code reviews
+Stay current with frontend development trends and best practices
+
+Requirements:
+
+Bachelor's degree in Computer Science, Web Development, or related field
+2+ years of frontend development experience
+Proficiency in HTML5, CSS3, and modern JavaScript (ES6+)
+Experience with at least one frontend framework: React, Angular, or Vue.js
+Knowledge of CSS preprocessors (Sass, Less) and build tools (Webpack, Vite)
+Understanding of responsive design principles and mobile-first development
+Experience with version control systems (Git)
+Knowledge of browser development tools and debugging techniques
+
+Preferred:
+
+Experience with TypeScript
+Knowledge of state management libraries (Redux, Vuex)
+Familiarity with testing frameworks (Jest, Cypress)
+Understanding of web performance optimization
+Experience with design systems and component libraries
+Knowledge of accessibility standards (WCAG)

@@ -1,0 +1,29 @@
+We are seeking a Machine Learning Engineer to design, build, and deploy scalable machine learning systems. You will bridge the gap between data science research and production implementation.
+Responsibilities:
+
+Design and implement machine learning pipelines from data ingestion to model deployment
+Build and maintain ML infrastructure on cloud platforms (AWS, GCP, Azure)
+Deploy machine learning models to production environments with proper monitoring
+Optimize model performance and scalability for high-traffic applications
+Collaborate with data scientists to productionize research models
+Implement MLOps best practices including CI/CD for machine learning
+Monitor model performance and implement automated retraining systems
+Work with software engineers to integrate ML models into applications
+
+Requirements:
+
+Bachelor's or Master's degree in Computer Science, Engineering, or related field
+3+ years of experience in software engineering or machine learning
+Strong programming skills in Python and/or Java
+Experience with machine learning frameworks: TensorFlow, PyTorch, Scikit-learn
+Proficiency with cloud platforms and containerization (Docker, Kubernetes)
+Knowledge of data processing tools like Apache Spark or Apache Kafka
+Experience with version control systems and CI/CD pipelines
+Understanding of software engineering principles and design patterns
+
+Preferred:
+
+Experience with MLOps tools like MLflow, Kubeflow, or SageMaker
+Knowledge of distributed computing and big data technologies
+Experience with real-time model serving and API development
+Familiarity with monitoring and observability tools

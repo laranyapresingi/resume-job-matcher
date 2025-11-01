@@ -26,6 +26,29 @@ else:
     job_description = load_jd_from_file(jd_path)
     st.code(job_description[:1000] + "..." if len(job_description) > 1000 else job_description)
 
+st.subheader("Additional Information")
+
+# Create columns for better layout
+col1, col2 = st.columns(2)
+
+with col1:
+    years_experience = st.number_input(
+        "Years of Experience",
+        min_value=0.0,
+        max_value=50.0,
+        value=1.0,
+        step=0.5,
+        help="Enter your total years of relevant work experience"
+    )
+
+with col2:
+    experience_level = st.selectbox(
+        "Experience Level",
+        ["Entry Level", "Mid Level", "Senior Level", "Executive"]
+    )
+
+
+
 # Proceed
 if st.button("➡️ Match Resume"):
     if resume_file and job_description:
@@ -33,6 +56,8 @@ if st.button("➡️ Match Resume"):
             f.write(resume_file.read())
         st.session_state.resume_path = "temp_resume.pdf"
         st.session_state.jd_text = job_description
+        st.session_state.years_experience = years_experience  # Store experience
+        st.session_state.experience_level = experience_level
         st.switch_page("pages/1_Result_Page.py")
     else:
         st.warning("Please upload a resume and provide a job description.")

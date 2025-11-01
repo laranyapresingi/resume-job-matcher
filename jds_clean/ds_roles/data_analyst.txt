@@ -1,0 +1,28 @@
+We are looking for a detail-oriented Data Analyst to help our organization make informed decisions by analyzing data trends and creating actionable insights. You will work closely with various departments to support data-driven strategies.
+Responsibilities:
+
+Collect, clean, and analyze data from multiple sources to identify business insights
+Create dashboards and reports using Excel, Tableau, Power BI, or similar tools
+Perform statistical analysis to support business decision-making
+Develop and maintain automated reporting systems
+Collaborate with stakeholders to understand data requirements and KPIs
+Identify data quality issues and work with IT teams to resolve them
+Present findings and recommendations to management and cross-functional teams
+
+Requirements:
+
+Bachelor's degree in Statistics, Mathematics, Economics, or related field
+2+ years of experience in data analysis or business intelligence
+Advanced proficiency in Excel including pivot tables, VLOOKUP, and macros
+Strong SQL skills for data querying and analysis
+Experience with data visualization tools like Tableau, Power BI, or QlikView
+Knowledge of statistical analysis and basic machine learning concepts
+Strong analytical thinking and problem-solving skills
+Excellent written and verbal communication skills
+
+Preferred:
+
+Experience with Python or R for data analysis
+Knowledge of database management systems
+Familiarity with business intelligence platforms
+Experience in specific industry domain

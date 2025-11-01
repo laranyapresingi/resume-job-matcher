@@ -1,0 +1,28 @@
+We are seeking a Data Scientist to join our analytics team and drive data-driven decision making across the organization. The ideal candidate will have strong statistical knowledge and programming skills to extract insights from complex datasets.
+Responsibilities:
+
+Develop predictive models using machine learning algorithms to solve business problems
+Analyze large datasets using Python, R, and SQL to identify trends and patterns
+Build and deploy machine learning models in production environments
+Collaborate with cross-functional teams to translate business requirements into analytical solutions
+Create data visualizations and reports using Tableau, Power BI, or similar tools
+Perform statistical analysis and hypothesis testing to validate findings
+Design and conduct A/B tests to measure feature effectiveness
+
+Requirements:
+
+Master's degree in Statistics, Computer Science, Mathematics, or related field
+3+ years of experience in data science or analytics roles
+Proficiency in Python and R for data analysis and machine learning
+Strong SQL skills for data extraction and manipulation
+Experience with machine learning frameworks like TensorFlow, PyTorch, or Scikit-learn
+Knowledge of statistical methods and experimental design
+Experience with cloud platforms (AWS, Azure, or GCP)
+Excellent communication skills to present findings to stakeholders
+
+Preferred:
+
+PhD in quantitative field
+Experience with deep learning and neural networks
+Knowledge of big data technologies like Spark or Hadoop
+Experience with MLOps and model deployment pipelines
