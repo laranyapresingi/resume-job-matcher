@@ -2,3 +2,17 @@ PyMuPDF
 pandas
 numpy
 matplotlib
+streamlit
+sentence-transformers
+spacy
+scikit-learn
+nltk
+openai
+pdfplumber
+pdfminer.six
+pdf2image
+Pillow
+pdfkit
+tabula-py
+pdfminer.six
+pdfminer.six

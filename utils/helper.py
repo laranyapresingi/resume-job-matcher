@@ -13,6 +13,15 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 
+import nltk
+from nltk.corpus import stopwords
+
+try:
+    stop_words = set(stopwords.words('english'))
+except LookupError:
+    nltk.download('stopwords')
+    stop_words = set(stopwords.words('english'))
+
 # Initialize once
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
